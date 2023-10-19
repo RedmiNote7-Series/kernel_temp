@@ -90,7 +90,7 @@ struct device *getDev(void)
 		return NULL;
 }
 
-struct i2c_client *getClient()
+struct i2c_client *getClient(void)
 {
 	if (client != NULL)
 		return client;
